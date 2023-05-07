@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "allowJs": false,
+    "target": "es5",
+    "lib": ["es5", "dom"],
+    "types": ["cypress", "node"],
+    "strict": true,
+    "baseUrl": "http://localhost:8080/ui/#login",
+    "resolveJsonModule": true
+  },
+  "include": ["**/*.ts"]
+}
