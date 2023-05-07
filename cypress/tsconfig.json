@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["es5", "dom"],
+    "types": ["cypress", "node"]
+  },
+  "include": [
+    "**/*.ts",
+    "../login.ts",
+    "support/index.ts",
+    "support/commands.ts",
+    "src/index.js"
+  ]
+}
