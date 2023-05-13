@@ -5,7 +5,7 @@
     "lib": ["es5", "dom"],
     "types": ["cypress", "node"],
     "strict": true,
-    "baseUrl": "http://localhost:8080/ui/#login",
+    "baseUrl": "http://localhost:8080",
     "resolveJsonModule": true
   },
   "include": ["**/*.ts"]

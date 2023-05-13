@@ -1,5 +1,5 @@
 {
-  "login": "supeardmin",
-  "password": "erebus",
-  "baseUrl": "http://localhost:8080/ui/#login"
+  "login": "superadmin",
+  "password": "Wtest100*",
+  "baseUrl": "http://localhost:8080"
 }

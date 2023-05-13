@@ -8,10 +8,8 @@ class HomePage {
   }
 
   isHomePageOpened() {
-    cy.xpath(this.title).then(($t) => {
-      if ($t.is(':visible')) {
-        return true;
-      }
+    return cy.xpath(this.title).then(($e) => {
+      return $e.is(':visible');
     });
   }
 }
