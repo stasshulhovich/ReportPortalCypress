@@ -10,10 +10,15 @@ describe.only('Test 1: Login to report portal', () => {
 
   it('Login to report portal', () => {
     const loginPage = new LoginPage();
+
     expect(loginPage).not.equal(null);
     const homePage = loginPage.loginToReportPortal();
+
     const isOpened = homePage.isHomePageOpened();
     isOpened.should('equal', true);
+
+    const isOpened2 = homePage.isHomePageOpened2();
+    isOpened2.should('equal', true);
   });
 
   it('Api check test', () => {
